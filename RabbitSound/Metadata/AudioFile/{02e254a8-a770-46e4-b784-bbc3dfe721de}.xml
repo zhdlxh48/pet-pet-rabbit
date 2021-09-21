@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{02e254a8-a770-46e4-b784-bbc3dfe721de}">
+		<property name="assetPath">
+			<value>y2mate.com - [브금대통령](신남귀여운Cute) 나는야 장난꾸러기  I am a mischievous girl [무료음악브금Royalty Free Music]_MYLjqNApdTE_192kbps.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>82.703673469387752</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9c3e3ad3-d28d-4858-a023-8fc33abc18cb}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,52 @@
+{
+    "name": "UIControls",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "83444388-077d-4a5c-a436-3a068f039647",
+            "actions": [
+                {
+                    "name": "UpArrow",
+                    "type": "Button",
+                    "id": "3273497b-2770-4277-be02-9307d1b54d3e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "DownArrow",
+                    "type": "Button",
+                    "id": "8becfe36-4b59-47a5-8fe2-5c45719ce412",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a70cfb6e-1430-47b5-a849-719d133119e2",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpArrow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a7688f4-c3c1-4941-a03b-738fb8e2e1a0",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownArrow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

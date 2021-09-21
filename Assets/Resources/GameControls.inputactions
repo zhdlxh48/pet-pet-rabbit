@@ -1,0 +1,121 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Note",
+            "id": "7067e87d-443e-44b9-a89b-72c9038daff1",
+            "actions": [
+                {
+                    "name": "FlowerHit",
+                    "type": "Button",
+                    "id": "5031d40e-0482-4635-8034-487eaaeb7a23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeafHit",
+                    "type": "Button",
+                    "id": "0e7d50f4-840f-4070-aa01-a688491cfac8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ButterflyHit",
+                    "type": "Button",
+                    "id": "c0f1d668-f017-4ba5-b318-bdfa6a4cd782",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "WaterDropHit",
+                    "type": "Button",
+                    "id": "f1cf908a-0dbd-499a-aa01-0bca317ee136",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RabbitHit",
+                    "type": "Button",
+                    "id": "c7f0d9f8-7024-41ae-8b5b-52982b9ff67b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5b031cc0-f749-4ab4-bb35-f24ff5432b4f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "FlowerHit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4c4e42c-328e-4217-b894-cd8d3f3f2517",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LeafHit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7216a9b1-0520-4f29-a809-3dfb1522123e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ButterflyHit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a681c85d-c821-4aa5-8552-3157d96f4f5a",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WaterDropHit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c0a7ae50-93dd-480b-b84a-7a802390d79e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RabbitHit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
